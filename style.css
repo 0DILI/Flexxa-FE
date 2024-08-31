@@ -81,6 +81,13 @@ body {
   background-size: cover;
 }
 
+.sec-12 {
+  background: url("./assets/FW-FE-sec12-bg.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
 .sticky {
   position: sticky;
   top: 0;
