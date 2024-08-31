@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  overflow-x: hidden !important;
+}
+
+.lh-1 {
+  line-height: 130%;
+}
+
+/*FW BACKGROUND IMAGES start*/
+.sec-1 {
+  background: url("./assets/FW-FE-sec1-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-2 {
+  background: url("./assets/FW-FE-sec2-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-3 {
+  background: url("./assets/FW-FE-sec3-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-4 {
+  background: url("./assets/FW-FE-sec4-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-5 {
+  background: url("./assets/FW-FE-sec5-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-6 {
+  background: url("./assets/FW-FE-sec6-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.sec-7 {
+  background: url("./assets/FW-FE-sec7-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.sec-8 {
+  background: url("./assets/FW-FE-sec8-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.dominate {
+  background: linear-gradient(90deg, #fecb32 0%, #00a884 67.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 120%;
+  font-weight: 900 !important;
+}
+
+.dis {
+  background: var(--Linear, linear-gradient(90deg, #fecb32 0%, #00a884 67.5%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.source {
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+}
+
+.grad-1 {
+  background: linear-gradient(92deg, #fecb32 -5.25%, #00d3a6 99.7%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-button {
+  border-radius: 9px;
+  background: linear-gradient(180deg, #deb037 0%, #ee9d23 100%), #04fda9;
+}
+
+.vid-test {
+  background: url("./assets/vid.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.vid-test iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.form-container {
+  border-radius: 50px;
+  background: rgba(47, 60, 51, 0.7);
+}
+
+/* BOUNCE ANIMATION */
+
+@keyframes bounce-smooth {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+}
+
+.animate-bounce-smooth {
+  animation: bounce-smooth 1.5s ease-in-out infinite;
+}
