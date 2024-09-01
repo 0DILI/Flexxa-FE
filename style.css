@@ -102,6 +102,27 @@ body {
   background-size: cover;
 }
 
+.sec-17 {
+  background: url("./assets/FW-FE-sec17-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-18 {
+  background: url("./assets/FW-FE-sec18-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-19 {
+  background: url("./assets/FW-FE-sec19-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .vid-bg {
   background: url("./assets/FW-FE-sec15-vidbg.svg");
   background-repeat: no-repeat;
@@ -182,6 +203,12 @@ body {
 .form-container {
   border-radius: 50px;
   background: rgba(47, 60, 51, 0.7);
+}
+
+.card-1 {
+  background: linear-gradient(0deg, #fff 0%, #fff 100%),
+    linear-gradient(180deg, #fff 0%, #cbf2e4 100%);
+  box-shadow: 0px 60px 80px 20px rgba(0, 0, 0, 0.1);
 }
 
 .three-steps {
