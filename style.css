@@ -144,6 +144,41 @@ body {
   background-size: cover;
 }
 
+.sec-23 {
+  background: url("./assets/FW-FE-sec23-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-24 {
+  background: url("./assets/FW-FE-sec24-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-24 {
+  background: url("./assets/FW-FE-sec26-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-16 {
+  background: url("./assets/fw-jv-sec16-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jv-footer {
+  background: url("./assets/FW-JV-FOOTER-BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .vid-bg {
   background: url("./assets/FW-FE-sec15-vidbg.svg");
   background-repeat: no-repeat;
@@ -308,4 +343,35 @@ body {
   .vid-test2 iframe {
     height: 300px;
   }
+}
+
+.bonus {
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.table {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.test {
+  background: linear-gradient(
+    184deg,
+    #86c63a -0.01%,
+    #297b68 24.49%,
+    #297b68 49.99%,
+    #86c63a 100%
+  );
+  box-shadow: 20px 20px 40px 0px rgba(0, 24, 14, 0.3);
+}
+
+.faq {
+  border-radius: 30px;
+  border: 1px solid #cfd1f6;
+  background: #fdfffa;
+  box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
 }
