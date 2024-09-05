@@ -353,7 +353,7 @@ body {
 }
 
 .table {
-  border-radius: 20px;
+  /* border-radius: 20px; */
   background: #fff;
   box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.1);
 }
@@ -374,4 +374,18 @@ body {
   border: 1px solid #cfd1f6;
   background: #fdfffa;
   box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+}
+
+.tab1-bg {
+  background: url("./assets/FW-FE-img43.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tab2-bg {
+  background: url("./assets/FW-FE-img44.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
